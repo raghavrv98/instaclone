@@ -1,0 +1,95 @@
+.header, .footer{
+  background: #000000;
+    color: #ffffff;
+    height: 30px;
+    padding: 20px;
+    width: 100%;
+}
+
+.header{
+  position: fixed;
+  z-index: 10;
+  top: 0;
+}
+
+.footer{
+position: fixed;
+bottom: 0px;
+padding-left: 30px;
+}
+
+h3{
+  margin: 0px;
+  padding: 0px;
+}
+
+.card-outer{
+  background: #C4C4C4;
+    height: 90vh;
+    padding: 55px;
+    margin-top: 70px;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-snap-points-y: repeat(200px);
+    scroll-snap-type: mandatory;
+    font-size: 0;
+}
+
+.card-outer > div {
+  display: inline-block;
+  text-align: center;
+  font-size: 10px;
+}
+
+.card-inner{
+height: 55vh;
+background: #88B1E1;
+padding: 20px;
+position: relative;
+width: 80%;
+}
+
+.card-img{
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  border: 1px;
+  border-radius: 50%;
+  background-color: #C4C4C4;
+  height: 70px;
+  width: 50px;
+}
+
+.card-inner h4{
+  margin: 0px;
+  margin-left: 45px;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+
+.card-inner p{
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+/* #container {
+  height: 200px;
+  width: 220px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-snap-points-y: repeat(200px);
+  scroll-snap-type: mandatory;
+  font-size: 0;
+}
+
+#container > div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  line-height: 200px;
+  text-align: center;
+  font-size: 100px;
+} */
